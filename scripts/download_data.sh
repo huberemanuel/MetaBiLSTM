@@ -1,5 +1,9 @@
 # wget -P data/ https://github.com/UniversalDependencies/UD_Russian-SynTagRus/raw/master/ru_syntagrus-ud-train-a.conllu
-# wget -P data/ https://github.com/UniversalDependencies/UD_Portuguese-Bosque/raw/master/pt_bosque-ud-train.conllu
+# Bosque
+wget -P data/ https://github.com/UniversalDependencies/UD_Portuguese-Bosque/raw/master/pt_bosque-ud-train.conllu
+wget -P data/ https://github.com/UniversalDependencies/UD_Portuguese-Bosque/raw/master/pt_bosque-ud-dev.conllu
+wget -P data/ https://github.com/UniversalDependencies/UD_Portuguese-Bosque/raw/master/pt_bosque-ud-test.conllu
+cat data/pt_bosque-ud-dev.conllu >> data/pt_bosque-ud-train.conllu
 # Porttinari-base
 wget -P data/ https://github.com/huberemanuel/portinari-base/raw/master/porttinari-base-train.conllu
 wget -P data/ https://github.com/huberemanuel/portinari-base/raw/master/porttinari-base-test.conllu
