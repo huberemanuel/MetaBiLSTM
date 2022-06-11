@@ -19,4 +19,4 @@ unzip data/skip_s300.zip -d data/embeddings
 # CONLL 20017 Shared Task Embeddings
 # https://lindat.mff.cuni.cz/repository/xmlui/bitstream/handle/11234/1-1989/word-embeddings-conll17.tar?sequence=9&isAllowed=y
 cp /content/drive/MyDrive/Colab\ Notebooks/resources/word-embeddings-conll17/Portuguese/pt.vectors.xz data/embeddings
-
+xzcat data/embeddings/pt.vectors.xz > data/embeddings/pt.vectors.txt
