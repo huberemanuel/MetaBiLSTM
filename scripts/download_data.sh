@@ -11,8 +11,12 @@ wget -P data/ https://github.com/huberemanuel/portinari-base/raw/master/porttina
 # wget -P data/ http://vectors.nlpl.eu/repository/20/182.zip
 # unzip data/182.zip -d data/embeddings
 
-# NILC embeddings
-wget -O data/skip_s300.zip http://143.107.183.175:22980/download.php?file=embeddings/word2vec/skip_s300.zip
 # Colab
-# cp /content/drive/MyDrive/Colab\ Notebooks/resources/skip_s300.zip data/
+# NILC embeddings
+# wget -O data/skip_s300.zip http://143.107.183.175:22980/download.php?file=embeddings/word2vec/skip_s300.zip
+cp /content/drive/MyDrive/Colab\ Notebooks/resources/skip_s300.zip data/
 unzip data/skip_s300.zip -d data/embeddings
+# CONLL 20017 Shared Task Embeddings
+# https://lindat.mff.cuni.cz/repository/xmlui/bitstream/handle/11234/1-1989/word-embeddings-conll17.tar?sequence=9&isAllowed=y
+cp /content/drive/MyDrive/Colab\ Notebooks/resources/word-embeddings-conll17/Portuguese/pt.vectors.xz data/embeddings
+
