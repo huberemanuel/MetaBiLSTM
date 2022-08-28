@@ -10,9 +10,10 @@ download_data:
 
 train-porttinari:
 	python src/meta_bilstm/bin/train_model.py \
-		-t data/porttinari-base-train.conllu \
-		-v data/porttinari-base-test.conllu \
-		-d $(DEVICE)
+		-t data/pt_porttinari-ud-train.conllu \
+		-v data/pt_porttinari-ud-dev.conllu \
+		-d $(DEVICE) \
+		-e data/embeddings/skip_s300.txt
 
 train-bosque:
 	python src/meta_bilstm/bin/train_model.py \
