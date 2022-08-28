@@ -5,8 +5,9 @@ wget -P data/ https://github.com/UniversalDependencies/UD_Portuguese-Bosque/raw/
 wget -P data/ https://github.com/UniversalDependencies/UD_Portuguese-Bosque/raw/master/pt_bosque-ud-test.conllu
 cat data/pt_bosque-ud-dev.conllu >> data/pt_bosque-ud-train.conllu
 # Porttinari-base
-wget -P data/ https://github.com/huberemanuel/portinari-base/raw/master/porttinari-base-train.conllu
-wget -P data/ https://github.com/huberemanuel/portinari-base/raw/master/porttinari-base-test.conllu
+wget -P data/ https://github.com/huberemanuel/UD_Portuguese-Porttinari/raw/master/pt_porttinari-ud-train.conllu
+wget -P data/ https://github.com/huberemanuel/UD_Portuguese-Porttinari/raw/master/pt_porttinari-ud-dev.conllu
+wget -P data/ https://github.com/huberemanuel/UD_Portuguese-Porttinari/raw/master/pt_porttinari-ud-test.conllu
 # or any other desired embeddings in default format
 # wget -P data/ http://vectors.nlpl.eu/repository/20/182.zip
 # unzip data/182.zip -d data/embeddings
